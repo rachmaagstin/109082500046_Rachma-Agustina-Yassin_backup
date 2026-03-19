@@ -1,0 +1,34 @@
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func jarak(a, b, c, d float64) float64 {
+	return math.Sqrt((a-c)*(a-c) + (b-d)*(b-d))
+}
+func didalam(cx, cy, r, x, y float64) bool {
+	return jarak(cx, cy, x, y) <= r
+}
+func main() {
+	var cx1, cy1, r1, cx2, cy2, r2, x, y float64
+	var in1, in2 bool
+
+	fmt.Scan(&cx1, &cy1, &r1)
+	fmt.Scan(&cx2, &cy2, &r2)
+	fmt.Scan(&x, &y)
+
+	in1 = didalam(cx1, cy1, r1, x, y)
+	in2 = didalam(cx2, cy2, r2, x, y)
+
+	if in1 && in2 {
+		fmt.Println("Titik didalam lingkaran 1 dan 2")
+	} else if in1 {
+		fmt.Println("Titik didalam lingkaran 1")
+	} else if in2 {
+		fmt.Println("Titik didalam lingkaran 2")
+	} else {
+		fmt.Println("Titik diluar lingkaran 1 dan 2")
+	}
+}
