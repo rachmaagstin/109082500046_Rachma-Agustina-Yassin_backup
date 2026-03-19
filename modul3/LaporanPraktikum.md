@@ -37,7 +37,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com)
+![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul3/output/no1.png)
 Program tersebut digunakan untuk menghitung nilai permutasi (P) dan kombinasi (C) dari dua bilangan yang diinputkan, yaitu (a, c) dan (b, d), dengan syarat n ≥ r. Program diawali dengan fungsi faktorial yang menghitung nilai faktorial suatu bilangan dengan cara memanggil nilai bilangnya sendiri, yaitu n! = n × (n−1)!. Selanjutnya, fungsi permutasi digunakan untuk menghitung banyaknya susunan nilai r dari nilai n menggunakan rumus P(n, r) = n!/(n−r)!, sedangkan fungsi kombinasi menghitung banyaknya cara memilih nilai r dari nilai n tanpa memperhatikan urutannya dengan rumus C(n, r) = n!/(r!(n−r)!). Pada fungsi main, program membaca empat bilangan bulat sebagai input, lalu memanggil fungsi permutasi dan kombinasi untuk masing-masing bilangan dan menampilkan hasilnya dalam dua baris keluaran.
 
 
@@ -74,7 +74,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com)
+![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul3/output/no2.png)
 Program tersebut digunakan untuk menghitung komposisi beberapa fungsi dalam matematika terhadap tiga buah input bilangan, yaitu a, b, dan c. Terdapat tiga fungsi yang didefinisikan : fungsi f(x) untuk menghitung kuadrat suatu bilangan (x²), fungsi g(x) untuk mengurangi bilangan dengan 2 (x−2), dan fungsi h(x) untuk menambahkan 1 pada bilangan (x+1). Di dalam fungsi main, program mulai membaca tiga input, kemudian menghitung dan menampilkan hasil dari tiga komposisi fungsi, yaitu f(g(h(a))), g(h(f(b))), dan h(f(g(c))). Artinya, setiap nilai input diproses secara berurutan oleh beberapa fungsi dengan mengutamakan (fungsi di dalam dijalankan lebih dulu).
 
 
@@ -120,5 +120,5 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com)
+![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul3/output/no3.png)
 Program tersebut digunakan untuk menentukan posisi sebuah titik terhadap dua lingkaran berdasarkan koordinat yang diinputkan nantinya. Program memiliki fungsi jarak untuk menghitung jarak antara dua titik menggunakan akar dari selisih kuadrat koordinat, serta fungsi didalam untuk mengecek apakah suatu titik berada di dalam lingkaran dengan cara membandingkan jarak titik ke pusat lingkaran dengan jari-jari lingkaran. Pada fungsi main, program membaca input berupa pusat dan radius dua lingkaran, serta koordinat sebuah titik, kemudian mengecek apakah titik tersebut berada di dalam lingkaran pertama, lingkaran kedua, keduanya, atau di luar keduanya. Hasil akhir yang ditampilkan berupa kalimat yang menjelaskan posisi titik tersebut.
