@@ -50,7 +50,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul3/output/no1.png)
+![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul4/output/no1.png)
 Program tersebut digunakan untuk menghitung nilai permutasi dan kombinasi dari dua pasang bilangan yang diinputkan dengan menggunakan prosedur, yaitu (a, c) dan (b, d). Dalam program tersebut menggunakan beberapa prosedur(func) untuk memecah setiap proses perhitungan agar lebih mudah untuk digunakan kembali. Pada (func) pertama digunakan untuk menghitung faktorial yang lalu hasil nya disimpan. Selanjutnya, pada (func) kedua yaitu permutasi memanggil (func) faktorial untuk menghitung banyaknya susunan dengan memperhatikan urutannya. Selanjutnya, pada (func) ketiga yaitu kombinasi memanggil (func) faktorial juga untuk menghitung banyaknya susunan tetapi tidak memperhatikan urutannya. Kemudian, pada (func) main diminta untuk memasukkan empat bilangan (dua pasang bilangan), lalu program akan menghitung menggunakan (func) faktorial, permutasi dan kombinasi tanpa harus ditulis ulang perhitungannya secara berkali-kali, karena sudah terpecah dan teratur sehingga mudah untuk diproses.
 
 
@@ -102,5 +102,5 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul3/output/no2.png)
+![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul4/output/no2.png)
 Program tersebut digunakan untuk menghitung skor pada perlombaan dengan menggunakan prosedur. Pada (func) hitungSkor memiliki dua tempat penyimpanan, yaitu soal dan skor yang digunakan untuk menghitung berapa soal yang telah dikerjakan dan juga untuk mengetahui total waktu pengerjaan soalnya. Di dalam (func) hitungSkor, program membaca waktu pengerjaan untuk 8 soal satu per satu. Jika waktu suatu soal kurang dari atau sama dengan 300 detik, maka soal tersebut dianggap berhasil diselesaikan, sehingga jumlah soal bertambah satu dan waktunya ditambahkan ke total skor. Selanjutnya, pada (func) main digunakan untuk membaca nama peserta yang diinputkan secara berulang, jika telah diinputkan "Selesai" maka program akan berhenti meminta input. Jadi, setiap kali ada nama peserta yang diinputkan dan terbaca maka program akan memanggil (func) hitungSkor untuk menghitung berapa banyak pengerjaan soal pesertanya, lalu hasilnya akan dibandingkan dengan peserta lain, dan peserta yang mendapat nilai tertinggi sebagai pemenangnya. Kemudian, outputnya akan ada nama pemenang serta berapa banyak soal yang telah ia kerjakan dengan total waktunya.
