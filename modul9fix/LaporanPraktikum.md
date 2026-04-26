@@ -54,7 +54,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul5/output/no1.png)
+![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul9fix/output/no1.png)
 Program tersebut digunakan untuk menentukan posisi sebuah titik terhadap dua lingkaran berdasarkan koordinat yang diinputkan nantinya. Program memiliki fungsi jarak untuk menghitung jarak antara dua titik menggunakan akar dari selisih kuadrat koordinat, serta fungsi diDalam untuk mengecek apakah suatu titik berada di dalam lingkaran dengan cara membandingkan jarak titik ke pusat lingkaran dengan jari-jari lingkaran. Pada fungsi main, program membaca input berupa pusat dan radius dua lingkaran, serta koordinat sebuah titik, kemudian mengecek apakah titik tersebut berada di dalam lingkaran pertama, lingkaran kedua, keduanya, atau di luar keduanya. Program bekerja dengan menggunakan satu struc titikLingkaran yang menyimpan koordinat (x, y) dan radius (r), di mana untuk titik hanya digunakan x dan y. Pertama, program menerima input pusat dan radius dua lingkaran (l1 dan l2), serta satu titik (t). Kemudian fungsi jarak(p, q) menghitung jarak antara dua titik menggunakan rumus jarak Euclidean (akar dari selisih kuadrat koordinat), dan fungsi diDalam(c, p) mengecek apakah jarak antara pusat lingkaran dan titik lebih kecil atau sama dengan radius lingkaran (artinya titik berada di dalam lingkaran). Hasil pengecekan disimpan dalam variabel boolean dalam1 dan dalam2, lalu digunakan dalam percabangan if-else untuk menentukan dan mencetak posisi akhir titik sesuai kondisi yang terpenuhi. 
 
 
@@ -156,7 +156,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul5/output/no2.png)
+![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul9fix/output/no2.png)
 Program tersebut digunakan untuk mengolah data angka dengan menggunakan array dengan cara menerima input data dari pengguna, lalu mengolahnya langkah demi langkah hingga menghasilkan berbagai informasi. Pertama, program meminta pengguna memasukkan jumlah elemen, kemudian membuat array dengan ukuran tersebut. Setelah itu, program mengisi array dengan angka-angka yang dimasukkan satu per satu melalui perulangan. Jika semua data sudah masuk, program langsung menampilkan seluruh isi array. Selanjutnya, program memproses data dengan menampilkan elemen berdasarkan indeks, yaitu indeks ganjil dan genap, menggunakan operasi modulus untuk mengecek posisi indeks. Setelah itu, program meminta nilai x dan menampilkan elemen yang berada pada indeks kelipatan x. Berikutnya, program dapat menghapus elemen pada indeks tertentu yang dimasukkan pengguna dengan cara menggabungkan bagian array sebelum dan sesudah indeks tersebut. Setelah proses penghapusan, program menghitung rata-rata dengan menjumlahkan semua elemen yang tersisa lalu membaginya dengan jumlah data. Kemudian, program menghitung standar deviasi dengan mencari selisih setiap elemen terhadap rata-rata, mengkuadratkannya, menjumlahkan hasilnya, lalu membaginya dengan jumlah data dan diakhiri dengan pengambilan akar kuadrat. Terakhir, program meminta pengguna memasukkan sebuah angka yang ingin dicari, lalu menghitung berapa kali angka tersebut muncul dalam array dengan cara memeriksa setiap elemen satu per satu.
  
 
@@ -208,7 +208,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul5/output/no3.png)
+![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul9fix/output/no3.png)
 Program ini digunakan untuk mencatat dan menampilkan hasil pertandingan antara dua klub secara berulang. Cara kerjanya dimulai dengan pengguna memasukkan nama klub A dan klub B, kemudian program akan meminta skor dari kedua klub untuk setiap pertandingan. Program menggunakan perulangan (loop) agar proses input skor bisa dilakukan berkali-kali tanpa perlu menjalankan ulang program. Di dalam perulangan tersebut, terdapat percabangan (if-else) yang berfungsi membandingkan skor untuk menentukan hasil pertandingan, yaitu jika skor klub A lebih besar maka klub A menang, jika skor klub B lebih besar maka klub B menang, dan jika sama maka hasilnya draw. Selain itu, terdapat logika penghentian, yaitu ketika salah satu skor bernilai negatif, maka perulangan akan berhenti. Setiap hasil pertandingan kemudian disimpan ke dalam array menggunakan proses append, append yaitu menambahkan data baru ke dalam array tanpa harus membuat array baru secara manual. Setelah semua pertandingan selesai, program menggunakan perulangan lagi untuk menampilkan seluruh hasil pertandingan satu per satu sesuai urutan, lalu menutup dengan pesan bahwa pertandingan telah selesai.
 
 
@@ -270,7 +270,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul5/output/no3.png)
+![Screenshot Output Unguided 1_1](ttps://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul9fix/output/no4.png)
 Program ini digunakan untuk membalik atau reverse urutan huruf yang dimasukkan oleh pengguna. Cara kerjanya dimulai saat pengguna memasukkan teks satu per satu (huruf per huruf), lalu program menyimpannya ke dalam sebuah array bertipe rune. Proses input dilakukan terus-menerus hingga pengguna memasukkan tanda titik (.) sebagai tanda berhenti atau jika kapasitas array sudah penuh. Setelah semua huruf disimpan, program akan memanggil fungsi untuk membalik isi array, yaitu dengan menukar posisi elemen dari depan dengan elemen dari belakang secara berpasangan hingga mencapai tengah array. Setelah proses pembalikan selesai, program kemudian menampilkan hasilnya dengan mencetak seluruh isi array yang sudah dalam kondisi terbalik. 
 
 
@@ -343,5 +343,5 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul5/output/no3.png)
+![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul9fix/output/no4modif.png)
 Program hasil modifikasi ini digunakan untuk mengecek apakah suatu teks merupakan palindrom, yaitu teks yang dibaca sama dari depan dan belakang, dengan hanya memperhatikan huruf saja. Cara kerjanya dimulai ketika pengguna memasukkan teks, lalu program membaca input huruf per huruf menggunakan fungsi isiArray hingga menemui enter atau kapasitas penuh. Dalam proses ini, hanya huruf (A–Z dan a–z) yang disimpan ke dalam array, sementara spasi dan karakter lain diabaikan. Setelah itu, fungsi palindrom dipanggil, yang terlebih dahulu menyalin isi array ke array sementara, kemudian membalik urutannya menggunakan fungsi balikanArray dengan cara menukar elemen depan dan belakang. Selanjutnya, program membandingkan array asli dengan array yang sudah dibalik, jika semua elemen sama maka hasilnya true (palindrom), jika tidak maka false. Terakhir, hasil tersebut ditampilkan ke layar. 
