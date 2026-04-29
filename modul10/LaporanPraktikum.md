@@ -41,7 +41,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul5/output/no1.png)
+![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul10/output/no1.png)
 Program tersebut digunakan untuk menganalisis berat anak kelinci yang akan dijual, dengan cara menentukan berat terkecil dan terbesar dari sejumlah data berat kelinci yang dimasukkan. Cara kerjanya program dimulai dengan membaca input sebuah bilangan bulat (N) sebagai jumlah data, kemudian program menginput (N) nilai berat dan menyimpannya ke dalam array. Setelah semua data tersimpan, program menentukan nilai minimum dan maksimum menggunakan elemen pertama array, lalu melakukan perulangan untuk membandingkan setiap elemen berikutnya. Jika ditemukan nilai yang lebih kecil dari minimum maka nilai minimum diperbarui, dan jika ditemukan nilai yang lebih besar dari maksimum maka nilai maksimum diperbarui. Setelah seluruh data diperiksa, program menampilkan dua nilai yaitu berat terkecil dan terbesar sebagai hasil akhirnya.
 
 
@@ -101,7 +101,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul5/output/no2.png)
+![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul10/output/no2.png)
 Program tersebut digunakan untuk mengelompokkan data, misalnya berat ikan atau jumlah ikan ke dalam beberapa wadah, kemudian menghitung total setiap wadah dan rata-rata keseluruhan. Cara kerjanya program dimulai dari menginputkan dua angka, yaitu: x (jumlah data ikan) dan y (kapasitas tiap wadah). Setelah itu, program membaca nilai x data ikan dan menyimpannya dalam array. Selanjutnya, program menjumlahkan nilai ikan ke dalam array totalWadah berdasarkan kelompok berukuran y. Setiap kali jumlah nilai yang telah dimasukkan ke wadah mencapai y, indeks wadah akan berpindah ke berikutnya. Jika jumlah data tidak habis dibagi y, maka wadah terakhir tetap dihitung. Setelah itu, program mencetak total isi setiap wadah. Terakhir, semua total wadah dijumlahkan lalu dibagi dengan jumlah wadah untuk mendapatkan rata-rata isi wadah. Inti dari kegunaan program ini berfungsi untuk membagi data ke dalam kelompok-kelompok dan menganalisis total serta rata-ratanya. 
 
 
@@ -163,5 +163,5 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul5/output/no3.png)
+![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul10/output/no3.png)
 Program tersebut digunakan untuk mengolah data berat balita, khususnya untuk mencari berat minimum, maksimum, dan rata-rata. Cara kerja program dimulai dengan meminta jumlah data (n), lalu pengguna memasukkan berat balita satu per satu ke dalam array. Fungsi hitungMinMax kemudian digunakan untuk mencari nilai terkecil dan terbesar. Fungsi ini bekerja dengan membuat nilai minimum dan maksimum dari elemen pertama, lalu membandingkannya dengan elemen lain secara berulang untuk menemukan nilai paling kecil dan paling besar. Hasilnya dicetak ke layar. Setelah itu, fungsi rerata menghitung rata-rata dengan menjumlahkan semua data berat dan membaginya dengan jumlah data. Hasil rata-rata juga ditampilkan. Secara keseluruhan, program ini berfungsi untuk menganalisis data numerik sederhana dengan mencari nilai minimum, maksimum, dan rata-rata.
