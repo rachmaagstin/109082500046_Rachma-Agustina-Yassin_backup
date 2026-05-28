@@ -56,7 +56,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul10/output/no1.png)
+![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul14/no1.go)
 Program tersebut digunakan untuk membaca beberapa kumpulan bilangan, kemudian mengurutkan setiap kumpulan data dari kecil ke besar menggunakan cara selection sort dan menampilkan hasil pengurutannya. Program dimulai dengan membaca jumlah input yang disimpan pada variabel m, kemudian melakukan perulangan sebanyak jumlah input tersebut. Pada setiap perulangan, program membaca jumlah data n dan menyiapkan array rumah berukuran 100 elemen untuk menyimpan bilangan yang diinput pengguna. Selanjutnya program membaca setiap bilangan dan menyimpannya langsung ke dalam array j. Setelah seluruh data tersimpan, fungsi rumahKerabat dipanggil dengan alamat array &rumah dan jumlah data n. Fungsi tersebut menentukan indeks nilai terkecil sementara pada variabel idxMin, lalu membandingkannya dengan seluruh elemen setelahnya untuk mencari nilai yang lebih kecil. Jika ditemukan nilai yang lebih kecil, indeks minimum diperbarui. Setelah proses pencarian selesai, elemen pada posisi sekarang ditukar dengan elemen terkecil yang ditemukan. Proses ini diulang hingga seluruh data terurut dari kecil ke besar. Setelah pengurutan selesai, program mencetak seluruh isi array yang sudah terurut.
 
 
@@ -141,7 +141,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul10/output/no2.png)
+![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul14/no2.go)
 Program tersebut digunakan untuk memisahkan bilangan ganjil dan genap dari beberapa kumpulan data, kemudian mengurutkan bilangan ganjil dari kecil ke besar dan bilangan genap dari besar ke kecil menggunakan cara selection sort, lalu menampilkan hasilnya. Program dimulai dengan membaca jumlah input n, kemudian pada setiap perulangan membaca jumlah data m dan setiap bilangan yang dimasukkan pengguna. Jika bilangan ganjil maka disimpan ke array ganjil, sedangkan bilangan genap disimpan ke array genap. Setelah semua data tersimpan, fungsi kerabatDekatMin dipanggil untuk mengurutkan array ganjil dengan cara mencari nilai terkecil lalu menukarnya ke posisi depan, sedangkan fungsi kerabatDekatMax digunakan untuk mengurutkan array genap dengan cara mencari nilai terbesar lalu menukarnya ke posisi depan. Kedua fungsi menggunakan alamat array agar perubahan langsung memengaruhi array asli tanpa menyalin data. Setelah proses pengurutan selesai, program mencetak seluruh bilangan ganjil yang sudah terurut terlebih dahulu, kemudian diikuti bilangan genap yang juga sudah terurut. Setelah mencoba input pada soal, hasil output berbeda dengan yang ada di soal, mungkin output pada soal 2 terdapat kekeliruan.
 
 
@@ -204,5 +204,5 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul10/output/no3.png)
+![Screenshot Output Unguided 1_1](https://github.com/rachmaagstin/109082500046_Rachma-Agustina-Yassin_backup/blob/main/modul14/no3.go)
 Program tersebut digunakan untuk membaca bilangan yang diinputkan lalu mencetak nilai median setiap kali muncul input bernilai 0. Program dimulai dengan membaca input satu per satu dan menyimpannya ke dalam array angka selama nilainya bukan 0 dan bukan -5313. Nilai -5313 digunakan sebagai penanda akhir input sehingga program berhenti. Ketika program membaca angka 0, seluruh data yang sudah tersimpan disalin ke array sementara yaitu temp agar data tidak berubah, kemudian fungsi median dipanggil untuk mengurutkan data menggunakan cara selection sort dengan cara mencari nilai terkecil pada bagian array yang belum terurut lalu menukarnya ke posisi depan hingga seluruh data terurut dari terkecil ke terbesar. Setelah data terurut, program menghitung median, yaitu nilai tengah jika jumlah data ganjil, atau rata-rata dua nilai tengah jika jumlah data genap. Hasil median kemudian dicetak ke layar setiap kali ditemukan input 0.
